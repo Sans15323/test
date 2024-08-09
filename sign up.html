@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <div class="form-container bg">
+        <form id="sign-up-form" class="form" action="http://localhost:16920/register" method="POST">
+            <h2>Sign Up</h2>
+            <input type="text" id="sign-up-username" name="name" placeholder="Username" required>
+            <div id="sign-up-username-error" class="error"></div>
+            <input type="email" id="sign-up-email" name="email" placeholder="Email" required>
+            <div id="sign-up-email-error" class="error"></div>
+            <input type="password" id="sign-up-password" name="password" placeholder="Password" required>
+            <div id="sign-up-password-error" class="error"></div>
+            <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+            <div id="confirm-password-error" class="error"></div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="sign up.js"></script>
+</body>
+</html>
